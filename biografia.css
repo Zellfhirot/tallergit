@@ -1,0 +1,109 @@
+
+
+header {
+
+    background-color: green;
+    text-align: center;
+    color: honeydew;
+    text-shadow: black 2px 2px;
+    animation-name: animacioncab;
+    animation-duration: 3s;
+    animation-delay:3s;
+    animation-iteration-count: 100;
+    
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+    
+}
+
+a {
+
+    color: honeydew;
+    
+}
+
+a:hover{
+
+color: red;
+transform: scale(2);
+
+
+}
+
+
+body {
+    background-color: green;
+    margin: 5%;
+    color: honeydew;
+    
+    
+}
+
+section img{
+
+  
+    width: 210px; 
+    height: 150px;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    text-shadow: black 1px 1px;
+}
+
+section.texto {
+    margin: 1%;
+    font-style: italic;
+}
+article {
+    margin-right: 1%;
+    margin-left: 0.2%;
+    text-align: justify;
+    text-shadow: black 1px 1px;
+}
+
+
+@keyframes animacioncab {
+
+
+    0% {transform: rotateX(0deg);}
+    100%   {transform: rotateX(360deg) ;}
+    
+
+    /*0%{ transform: none;}
+
+    15%{transform: rotateX(50deg);
+    }
+
+    30%{
+        transform: rotateX(100deg);
+    }
+
+    45% {
+        transform: rotateX(150deg);
+
+    }
+    60% {
+        transform: rotateX(200deg);
+
+    }
+    75% {
+        transform: rotateX(250deg);
+
+    }
+    95% {
+        transform: rotateX(300deg);
+
+    }
+
+    100% {
+        transform: rotateX(350deg);
+    }
+}
