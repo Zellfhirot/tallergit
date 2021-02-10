@@ -1,4 +1,0 @@
-# tallergit
-
-
-sbsfdgsdfbdfb

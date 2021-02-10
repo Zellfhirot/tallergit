@@ -1,0 +1,128 @@
+
+/* De lo importante no me ha dado tiempo a hacer el responsive, olvidé empezar por mobile first (listo de mí) y
+me he vuelto loco...creo que funciona con la BIOGRAFIA Y CON EL CONTACTO la versión movil y la de ordenador (empecé por aqui), 
+la que sería para tablet no la he hecho porque como digo no he sido lo suficientemente ordenado y he perdido mucho tiempo. 
+He animado la cabecera de la biografia y he dado un hover a los elementos de navegación, cambiado la fuente y alguna cosa más, 
+soy consciente de que ha quedado muy pobre la página pero la verdad es que tárdo muchísimo en dar cualquier paso.
+Por otro lado, iba a realizar un CSS para cada pagina del proyecto pero como nos comentaste que en principio no era lo suyo
+hice las dos páginas que me quedaban en un solo CSS, en este esta el CSS de index y de contacto, el otro css es solo la biografía.
+
+Gracias por aguantar el tostón de página ¡¡¡¡espero que no te haga mucho daño a los ojos!!!!
+*/
+
+
+
+/*360 o menos */
+body{
+    background-image: url("Fondobienvenida.jpg");
+    
+    }
+
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        margin: 5%;
+        padding-left: 25%;
+    padding-right: 25%;
+        
+    }
+    
+    a {
+    
+        color: honeydew;  
+    }
+    
+    a:hover {
+    
+    color: red;
+    transform: scale(2);
+    
+    }
+    
+    main div.borde {
+        color: white;
+        text-shadow: black 1px 1px;
+        display: flex;
+        justify-content: center;
+        font-size: 180%;
+        margin: 10%;
+        border: 10px solid white;
+        border-radius: 50px;
+        margin-bottom: 2%;
+        
+        }
+
+        main section{
+
+            color: white;
+            text-shadow: black 1px 1px;
+            display: flex;
+            justify-content: center;
+            font-size: 150%;
+            font-style: oblique;
+            
+            }
+            
+
+
+            main article {
+                color: white;
+                text-shadow: black 1px 1px;
+                display: flex;
+                justify-content: center;
+                margin: 5% ;
+            }
+
+
+
+
+ /*Pagina de contacto.html*/
+
+ 
+
+    header {
+         display: flex;
+         justify-content: center;
+          color: white;
+          margin-top: -2%;
+}
+
+       main.contacto{
+           
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+       }
+
+
+        div.ct{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+        border-radius: 5px;
+        color: grey;
+        border-style: solid;
+        width: 200px;
+        
+        }
+
+          div.ct{
+
+            padding-left: 2%;
+        
+        }
+        
+        footer{
+
+        color: white;
+        text-shadow: black 1px 1px;
+        margin: 1%;
+ 
+        }
+            
+
+      
