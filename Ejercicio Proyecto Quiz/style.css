@@ -1,0 +1,119 @@
+
+.wrapper{
+    margin: 0 auto;
+    width: 100%;
+    
+
+}
+/*Esta a es del index.html*/
+a{
+font-size: xx-large;
+display: flex;
+justify-content: center;
+color: cornsilk;
+
+}
+
+
+body{
+ background-color: rgb(47, 11, 133);
+ font-family: fantasy;
+    }
+
+    
+
+
+#pre{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+    height: 100%;
+    background-color: crimson;
+    border-style: double;
+    
+}
+.resp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    background-color: gold;
+    padding: 2%;
+    box-sizing: border-box; 
+    border-style: double;
+    
+}
+
+div.ab{ 
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+div.cd{
+width: 50%;  
+display: flex;
+justify-content: center; 
+}
+
+
+.ra{
+    padding: 3%;
+    background-color: palevioletred;
+    width: 25%;
+    
+}
+
+.rb{
+    padding: 3%;
+    background-color: palevioletred;
+    width: 25%;
+}
+.rc{
+    padding: 3%;
+    background-color: palevioletred;
+    width: 25%;
+}
+.rd{
+    padding: 3%;
+    background-color: palevioletred;
+    width: 25%;
+}
+
+@media screen and (min-width: 768px) {
+
+    .wrapper {              
+        width: 100%;
+        margin: 0 auto;
+    
+    }
+
+    div.ab{
+        display: flex;
+        width: 25%;
+}
+
+    div.cd{
+    display: flex;
+    width: 25%;   
+}
+
+}
+
+.btn {
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.verde{
+
+    background-color: green;
+}
+
+.rojo{
+
+     background-color: red;
+}
